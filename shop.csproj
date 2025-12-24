@@ -46,6 +46,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -85,6 +86,12 @@
     <Compile Include="Form4%28DangKy%29.Designer.cs">
       <DependentUpon>Form4%28DangKy%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formgiohang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formgiohang.Designer.cs">
+      <DependentUpon>Formgiohang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -98,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4%28DangKy%29.resx">
       <DependentUpon>Form4%28DangKy%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formgiohang.resx">
+      <DependentUpon>Formgiohang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
